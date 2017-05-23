@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Name App</string>
+    <string name="app_name">Text Analyzer</string>
+    <string name="input_hint">Enter text for Analysis...</string>
+    <string name="button_label">Submit</string>
 </resources>

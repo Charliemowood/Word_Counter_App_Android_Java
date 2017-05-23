@@ -15,7 +15,7 @@ public class CounterProvider {
 
     }
 
-    public int countsWords() {
-        return this.wordArray.length;
+    public String countsWords() {
+        return this.wordArray.length + " word/s";
     }
 }

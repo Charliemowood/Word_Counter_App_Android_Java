@@ -12,11 +12,11 @@ public class CounterProviderTest {
     @Test
     public void canCountWords4() {
         CounterProvider counter = new CounterProvider("The cat is red");
-        assertEquals(4, counter.countsWords());
+        assertEquals("4 word/s", counter.countsWords());
     }
     @Test
     public void canCountWords6() {
         CounterProvider counter = new CounterProvider("The cat is big and red");
-        assertEquals(6, counter.countsWords());
+        assertEquals("6 word/s", counter.countsWords());
     }
 }
